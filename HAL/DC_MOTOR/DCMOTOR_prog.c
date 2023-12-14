@@ -15,7 +15,7 @@ void DCMOTOR_voidRotateCW(const DC_MOTOR_Config_t* DCMOTOR_Obj)
 }
 
 
-void DCMOTOR_voidRotateCWW(const DC_MOTOR_Config_t* DCMOTOR_Obj)
+void DCMOTOR_voidRotateCCW(const DC_MOTOR_Config_t* DCMOTOR_Obj)
 {
 	DIO_u8SetPinValue(DCMOTOR_Obj->Conection_PORT,DCMOTOR_Obj->PIN1_Conection,DIO_u8PIN_LOW);
 
