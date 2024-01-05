@@ -4,7 +4,9 @@
 
 void ADC_voidInit(void);
 
-uint16 ADC_u8GetChannelReading(uint8 Copy_u8Channel);  /*return Result of conversion 8bit*/
+uint8 ADC_u8StartConversionSynch(uint8 Copy_u8Channel, uint16 *Copy_pu16Result);  /*return Error state*/
+
+uint8 ADC_u8StartConversionAsynch(uint8 Copy_u8Channel, uint16 *Copy_pu16Result, void(*Copy_pvNotificationFunc)(void));
 
 /*Configure the ADC Analog channel and gain selection*/
 #define ADC_u8SINGLE_ENDEND_ADC0				0u

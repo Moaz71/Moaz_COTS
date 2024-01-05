@@ -27,7 +27,7 @@
 #define ADC_u8PRESCALER_DIV_FACTOR                  DIVISION_BY_128
 
 
-
+#define ADC_u32TIMEOUT								50000u
 
 
 

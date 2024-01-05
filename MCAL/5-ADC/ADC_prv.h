@@ -24,6 +24,10 @@
 #define CHANNEL_BIT_MASK      0b11100000
 
 
+#define IDLE           		  0u
+#define BUSY				  1u
+
+
 
 
 
