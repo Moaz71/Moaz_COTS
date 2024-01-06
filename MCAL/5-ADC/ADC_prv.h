@@ -24,6 +24,15 @@
 #define CHANNEL_BIT_MASK      0b11100000
 
 
+#define IDLE           		  0u
+#define BUSY				  1u
+
+
+#define SINGLE_ASYNCH		  0u
+#define CHAIN_ASYNCH		  1u
+
+static void voidHandleChainConvAsynch(void);
+static void voidHandleSingleConvAsynch(void);
 
 
 
