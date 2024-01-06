@@ -28,6 +28,11 @@
 #define BUSY				  1u
 
 
+#define SINGLE_ASYNCH		  0u
+#define CHAIN_ASYNCH		  1u
+
+static void voidHandleChainConvAsynch(void);
+static void voidHandleSingleConvAsynch(void);
 
 
 

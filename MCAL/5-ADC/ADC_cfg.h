@@ -12,7 +12,7 @@
  * 													1- EIGHT_BIT
  * 													2- TEN_BIT
  * 													*/
-#define ADC_u8RESOLUTION  							EIGHT_BIT
+#define ADC_u8RESOLUTION  							TEN_BIT
 
 /*Configure the ADC Prescaler division factor,option:
  * 													1- DIVISION_BY_2
